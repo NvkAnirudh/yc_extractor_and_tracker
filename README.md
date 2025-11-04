@@ -302,7 +302,7 @@ All these files are in `.gitignore` by default.
 
 ## License
 
-[Add your license here]
+[MIT](https://github.com/NvkAnirudh/yc_extractor_and_tracker/blob/main/LICENSE)
 
 ## Acknowledgments
 
