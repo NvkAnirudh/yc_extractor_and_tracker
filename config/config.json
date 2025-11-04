@@ -1,0 +1,42 @@
+{
+  "claude": {
+    "model": "claude-3-5-haiku-20241022",
+    "max_tokens": 4096,
+    "temperature": 0.7
+  },
+  "sheets": {
+    "columns": [
+      "Company Name",
+      "Position Title",
+      "Location",
+      "Employment Type",
+      "Job Description Link",
+      "Salary Range",
+      "Equity Range",
+      "Founder 1",
+      "Founder 1 LinkedIn",
+      "Founder 2",
+      "Founder 2 LinkedIn",
+      "Required Experience",
+      "Visa Sponsorship",
+      "Match %",
+      "Personalized Message",
+      "Application Date",
+      "Status"
+    ],
+    "default_status": "Not Applied"
+  },
+  "extraction": {
+    "fields": [
+      "company_name",
+      "position_title",
+      "location",
+      "employment_type",
+      "salary_range",
+      "equity_range",
+      "founders",
+      "required_experience",
+      "visa_sponsorship"
+    ]
+  }
+}

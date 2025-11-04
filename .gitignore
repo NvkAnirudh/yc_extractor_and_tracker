@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Output files
+*.csv
+yc_jobs.json
+*.xlsx
+*.xls
+
+# Debug and test files
+debug_*.py
+debug_*.html
+test_*.py
+verify_*.py
+*_test.py
+
+# Chrome driver
+chromedriver
+chromedriver.exe
+.wdm/
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Google Sheets credentials
+credentials.json
+*-credentials.json
+service-account*.json
+
+# Personal context/resume
+context.md
+resume.pdf
+*.pdf
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.txt
+!requirements.txt
+!README.txt
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
